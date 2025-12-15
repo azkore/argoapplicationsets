@@ -22,8 +22,3 @@ spec:
       destination:
         server: https://kubernetes.default.svc
         namespace: '{{path.basename}}'
-      syncPolicy:
-          automated:
-              allowEmpty: true
-              prune: false
-              selfHeal: true
